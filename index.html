@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike. Just Do It. Nike.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://www.nike.com/favicon.ico?v=1" rel="icon" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/960px-Logo_NIKE.svg.png"
+                alt="Logo Nike">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="https://nike.com" target="_blank">Site Oficial</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <h1>Nike. Just do it. Nike.</h1>
+        </div>
+        <div class="conteudo">
+            <div class="sobre" id="sobre">
+                <h1>Sobre</h1>
+                <p>Nossa missão na Nike é trazer inspiração e inovação para cada atleta no mundo. E nós acreditamos que
+                    se você tem um corpo, você é um atleta.<br><br> Mais do que apenas criar tênis e roupas, nós criamos
+                    ferramentas para quebrar barreiras. Somos impulsionados pela inovação constante, pelo design
+                    focado no desempenho e por uma crença profunda no poder do esporte para mover o mundo para
+                    frente. Da pista de corrida à rua, do atleta profissional ao corredor de fim de semana, nós
+                    estamos lá para celebrar a jornada, a determinação e a coragem de simplesmente fazer. Nós somos
+                    a <b>Nike. Just Do It</b>.
+                </p>
+            </div>
+            <div class="line"></div>
+            <div class="produtos" id="produtos">
+                <h1>Produtos</h1>
+                <div class="itens">
+                    <div class="item">
+                        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/efe46c9b-6078-4de3-8c86-482ccd92cb28/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
+                            alt="">
+                        <h2>Nike Alphafly 3</h2>
+                        <h3>Men's Road Racing Shoes</h3>
+                        <p>$295</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/30bb5825-8448-44e2-ac4c-fc06bf31f885/NIKE+VOMERO+18.png"
+                            alt="">
+                        <h2>Nike Vomero 18</h2>
+                        <h3>Men's Road Racing Shoes</h3>
+                        <p>$155</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a50f8381-59f1-4299-bed3-747b3ece05a7/AIR+ZM+PEGASUS+41+GTX.png"
+                            alt="">
+                        <h2>Nike Pegasus 41 GORE-TEX</h2>
+                        <h3>Men's Waterproof Road Running Shoes</h3>
+                        <p>$170</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="contato" id="contato">
+            <h2>Contato</h2>
+            <form id="formContato" action="#" method="post" novalidate>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input id="nome" class="inputs" name="nome" required>
+                    <div class="error-msg" id="err-nome">Digite seu nome</div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" class="inputs" name="email" type="email" required>
+                    <div class="error-msg" id="err-email">Digite um email válido</div>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" class="inputs" name="mensagem" required></textarea>
+                    <div class="error-msg" id="err-mensagem">Escreva sua mensagem</div>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar Mensagem</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="footer">
+            <p>Desenvolvido por <a href="http://luizeduos.web.app">Luiz Eduardo</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <div id="popup-enviado" class="popup">
+        <div class="popup-content">
+            <h2>Mensagem enviada!</h2>
+            <p>Obrigado por entrar em contato.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
