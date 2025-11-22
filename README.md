@@ -53,7 +53,7 @@ Quando o usuário envia o formulário corretamente:
 
 1. Baixe ou clone o repositório:
 ```bash
-   git clone https://github.com/SEU-USUARIO/SEU-REPO.git
+   git clone https://github.com/luizeduos/nike.git
 ```
 
 2. Certifique-se de que os arquivos estejam na mesma pasta:
@@ -111,4 +111,3 @@ Projeto desenvolvido por **Luiz Eduardo**.
 Contato e portfólio: [http://luizeduos.web.app](http://luizeduos.web.app)
 
 ---
-```
